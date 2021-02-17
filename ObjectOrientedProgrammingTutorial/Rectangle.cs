@@ -7,6 +7,13 @@ namespace ObjectOrientedProgrammingTutorial
     class Rectangle : Quad
     {
 
+        public override string Print() 
+        /*"new" tells system we are purposely overidding a method with the same name from the inherited class
+         to perform the "new" defined method */
+        {
+            return "Rectangle";
+        }
+
         public int Area()
         {
             return Side1 * Side2;

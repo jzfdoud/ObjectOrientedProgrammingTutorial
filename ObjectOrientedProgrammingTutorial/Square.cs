@@ -7,6 +7,10 @@ namespace ObjectOrientedProgrammingTutorial
     class Square : Rectangle
     {
 
+        public override string Print()
+        {
+            return "Square";
+        }
         public Square() { }
 
         public Square(int s1) : base(s1,s1)
